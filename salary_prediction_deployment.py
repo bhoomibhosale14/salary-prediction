@@ -37,4 +37,4 @@ if st.button("Predict Salary"):
     df[col]=encoder[col].transform(df[col])
 
   prediction = model.predict(df)
-  st.succes(f"predicted Salary: {prediction[0]:,.2f}")
+  st.success(f"predicted Salary: {prediction[0]:,.2f}")
